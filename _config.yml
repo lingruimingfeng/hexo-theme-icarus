@@ -1,0 +1,127 @@
+# Menus
+menu:
+  首页: .
+  归档: archives
+  分类: categories
+  标签: tags
+  关于: about
+  # 我的: me
+
+# Customize
+customize:
+    logo:
+        enabled: true
+        width: 40
+        height: 40
+        url: images/logo.png
+    profile:
+        enabled: true # Whether to show profile bar
+        avatar: assets/img/江流儿.jpg
+        gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        author: DongChunlin
+        author_title: APP Developer & Designer
+        location: Beijing, China
+        follow: https://github.com/lingruimingfeng
+    highlight: monokai
+    sidebar: right # sidebar position, options: left, right or leave it empty
+    thumbnail: true # enable posts thumbnail, options: true, false  是否为帖子设置缩略图
+    favicon: # path to favicon
+    social_links:
+        github: https://github.com/lingruimingfeng
+        twitter: /
+        facebook: /
+        dribbble: /
+        rss: /
+    social_link_tooltip: true # enable the social link tooltip, options: true, false
+
+# Widgets
+widgets:
+    - recent_posts
+    - category
+    - archive
+    - tag
+    - tagcloud
+    - links
+
+# Search
+search:
+    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+    swiftype: # enter swiftype install key here
+    baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# Comment
+comment:
+    disqus: # enter disqus shortname here
+    duoshuo: # enter duoshuo shortname here
+    youyan: 2137500 # enter youyan uid here
+    facebook: # enter true to enable
+    isso: # enter the domain name of your own comment isso server eg. comments.example.com
+    changyan: # please fill in `appid` and `conf` to enable
+        appid:
+        conf:
+    gitment:
+        owner: #your github ID
+        repo: #the repo to store comments
+        #Register an OAuth application, and you will get a client ID and a client secret.
+        client_id: #your client ID
+        client_secret: #your client secret
+
+# Share
+share: bdshare # options: jiathis, bdshare, addtoany, default
+
+# Plugins
+plugins:
+    lightgallery: true # options: true, false
+    justifiedgallery: true # options: true, false
+    google_analytics: UA-102035334-1 # enter the tracking ID for your Google Analytics
+    google_site_verification: # enter Google site verification code
+    baidu_analytics: 4a6e764a563cfc3b024c3547daa70e71 # enter Baidu Analytics hash key
+    mathjax: false # options: true, false
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+    links:
+        Hexo: http://hexo.io
+        Java大神-王怀亮的博客: http://www.jkinn.com/
+
+# 打赏
+# 请在需要打赏的文章的md文件头部，设置属性reward: true
+
+# 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 2
+# 打赏wording
+reward_wording1: '纯属好玩'
+reward_wording2: '扫码打赏，你说多少就多少'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/img/alipay.jpg
+alipay: /assets/img/alipay_toast.png
+# 微信二维码图片地址
+weixin: /assets/img/weixin_toast.png
+
+# donation button
+donate:
+    enable: true
+    message: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!'
+    wechatImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png
+    alipayImage: https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg
+
+# 版权起始年份
+since_year: 2015
+
+# 站长统计CNZZ id
+cnzz_siteid: 1262503976 #这里填入你在站长统计注册后的web_id
+
+#“不蒜子”访问量统计开启
+busuanzi_analytics: true
+
+# “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/
+visit_counter:
+  site_uv: 站点总访客数：
+  site_pv: 站点总访问量：
+
+# # icp备案号  ICP_license: 京ICP备1234556号-1
+# ICP_license: false
